@@ -1,0 +1,167 @@
+/*Controls heading text*/
+h1 {color: #114C48;}
+h1 {font-family: perpetua;}
+h1{text-align: center;}
+
+h3{color: #114C48;}
+
+/*Sets image sizes for those not in the slideshow*/
+img[src="dCapensisPROP.JPG"]{
+  width: 50%;
+  height: 50%;
+}
+img[src="venusPROP.JPG"]{
+  width: 50%;
+  height: 50%;
+}
+img[src="bogNew.JPG"]{
+  width: 50%;
+  height: 50%;
+}
+
+/*Controls paragraph text*/
+p {color: #114C48;}
+p {font-family: perpetua}
+p {font-size: 18}
+
+/*Sets image sizes and orientations for those in the slideshow*/
+img[src="sLeucophyllaFlower.JPG"] {
+  max-width: 100%;
+  height: auto;
+}
+
+img[src="bogRound2.JPG"] {
+  max-width: 100%;
+  height: auto;
+}
+
+img[src="nepenthes.JPG"] {
+  transform: rotate(90deg);
+  width: 760px; /*Actually height*/
+  height: 740px; /*Actually width*/
+  text-align: center;
+}
+
+img[src="butterwort.JPG"] {
+  max-width: 100%;
+  height: auto;
+
+}
+img[src="sarracenialeucophylla.JPG"] {
+  max-width: 100%;
+  height: auto;
+}
+img[src="sFlavapitcher.JPG"] {
+  transform: rotate(90deg);
+  width: 760px; /*Actually height*/
+  height: 740px; /*Actually width*/
+  text-align: center;
+}
+img[src="sarraceniawhiteFlower.JPG"] {
+  max-width: 100%;
+  height: auto;
+}
+
+/*changes background color*/
+body {
+  background-color: #EEE1D2;
+}
+
+* {box-sizing:border-box}
+
+/* Photos in Slideshow */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+  text-align: center; /* centers photos in slideshow*/
+}
+
+/* Hide the images by default */
+.mySlides {
+  display: none;
+}
+
+/*Controls text in captions for the slideshow*/
+.text {
+  color: #114C48;
+  font-size: 25px;
+  padding: 8px 12px;
+  position: relative;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/*Controls the dots/bullets/indicators in the slideshow*/
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+/*Changes the color of the dot when the mouse is hovering over it*/
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s; /*takes 1.5 seconds for the pictures to change*/
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+/*Makes photos fade into each other instead of just changing*/
+@-webkit-keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+/*CSS for menu bar*/
+/*Makes the menu bar background*/
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #E58280;
+}
+
+/*Makes the text appear to the left*/
+li {
+  float: left;
+}
+
+/*Controls text for menu*/
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  background-color: #AA3F3D;
+}
+
+.active {
+  background-color: #AA3F3D;
+}
+
+
+
+.link {
+  background-color: #E58280;
+}
