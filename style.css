@@ -6,15 +6,15 @@ h1{text-align: center;}
 h3{color: #114C48;}
 
 /*Sets image sizes for those not in the slideshow*/
-img[src="dCapensisPROP.JPG"]{
+img[src="img/dCapensisPROP.JPG"]{
   width: 50%;
   height: 50%;
 }
-img[src="venusPROP.JPG"]{
+img[src="img/venusPROP.JPG"]{
   width: 50%;
   height: 50%;
 }
-img[src="bogNew.JPG"]{
+img[src="img/bogNew.JPG"]{
   width: 50%;
   height: 50%;
 }
@@ -25,45 +25,45 @@ p {font-family: perpetua}
 p {font-size: 18}
 
 /*Sets image sizes and orientations for those in the slideshow*/
-img[src="sLeucophyllaFlower.JPG"] {
+img[src="img/sLeucophyllaFlower.JPG"] {
   max-width: 100%;
   height: auto;
 }
 
-img[src="sleucophyllaZOO.JPG"] {
+img[src="img/sleucophyllaZOO.JPG"] {
   max-width: 100%;
   height: auto;
 }
 
 
-img[src="bogRound2.JPG"] {
+img[src="img/bogRound2.JPG"] {
   max-width: 100%;
   height: auto;
 }
 
-img[src="nepenthes.JPG"] {
+img[src="img/nepenthes.JPG"] {
   transform: rotate(90deg);
   width: 760px; /*Actually height*/
   height: 740px; /*Actually width*/
   text-align: center;
 }
 
-img[src="butterwort.JPG"] {
+img[src="ing/butterwort.JPG"] {
   max-width: 100%;
   height: auto;
 
 }
-img[src="sarracenialeucophylla.JPG"] {
+img[src="img/sarracenialeucophylla.JPG"] {
   max-width: 100%;
   height: auto;
 }
-img[src="sFlavapitcher.JPG"] {
+img[src="img/sFlavapitcher.JPG"] {
   transform: rotate(90deg);
   width: 760px; /*Actually height*/
   height: 740px; /*Actually width*/
   text-align: center;
 }
-img[src="sarraceniawhiteFlower.JPG"] {
+img[src="img/sarraceniawhiteFlower.JPG"] {
   max-width: 100%;
   height: auto;
 }
