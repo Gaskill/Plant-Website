@@ -48,6 +48,13 @@ img[src="img/nepenthes.JPG"] {
   text-align: center;
 }
 
+img[src="img/nepenthes1.jpg"] {
+  transform: rotate(90deg);
+  width: 760px; /*Actually height*/
+  height: 740px; /*Actually width*/
+  text-align: center;
+}
+
 img[src="ing/butterwort.JPG"] {
   max-width: 100%;
   height: auto;
